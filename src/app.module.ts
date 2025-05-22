@@ -10,17 +10,17 @@ import { UsersModule } from './users/users.module';
 import { ProductsModule } from './products/products.module';
 import { OrdersModule } from './orders/orders.module';
 import helmet from 'helmet';
-import * as compression from 'compression';
-import * as morgan from 'morgan';
+import compression from 'compression';
+import morgan from 'morgan';
 
 @Module({
   imports: [
+    UsersModule,
     AppConfigModule,
     DatabaseModule,
     LoggingModule,
     HealthModule,
     AuthModule,
-    UsersModule,
     ProductsModule,
     OrdersModule,
   ],
@@ -29,12 +29,6 @@ import * as morgan from 'morgan';
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer
-      .apply(
-        helmet(),
-        compression(),
-        morgan('dev'),
-      )
-      .forRoutes('*');
+    consumer.apply(helmet(), compression(), morgan('dev')).forRoutes('*');
   }
 }
