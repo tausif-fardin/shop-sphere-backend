@@ -1,0 +1,192 @@
+2025-05-22T11:24:22.683Z [RoutesResolver] [32minfo[39m: AppController {/}:
+2025-05-22T11:24:22.706Z [RouterExplorer] [32minfo[39m: Mapped {/, GET} route
+2025-05-22T11:24:22.707Z [RoutesResolver] [32minfo[39m: UsersController {/users}:
+2025-05-22T11:24:22.713Z [RouterExplorer] [32minfo[39m: Mapped {/users, POST} route
+2025-05-22T11:24:22.718Z [RouterExplorer] [32minfo[39m: Mapped {/users, GET} route
+2025-05-22T11:24:22.722Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, GET} route
+2025-05-22T11:24:22.725Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, PATCH} route
+2025-05-22T11:24:22.728Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, DELETE} route
+2025-05-22T11:24:22.729Z [RoutesResolver] [32minfo[39m: HealthController {/health}:
+2025-05-22T11:24:22.732Z [RouterExplorer] [32minfo[39m: Mapped {/health, GET} route
+2025-05-22T11:24:22.734Z [RoutesResolver] [32minfo[39m: AuthController {/auth}:
+2025-05-22T11:24:22.736Z [RouterExplorer] [32minfo[39m: Mapped {/auth/register, POST} route
+2025-05-22T11:24:22.739Z [RouterExplorer] [32minfo[39m: Mapped {/auth/login, POST} route
+2025-05-22T11:24:22.742Z [RouterExplorer] [32minfo[39m: Mapped {/auth/profile, GET} route
+2025-05-22T11:24:22.743Z [RoutesResolver] [32minfo[39m: ProductsController {/products}:
+2025-05-22T11:24:22.745Z [RouterExplorer] [32minfo[39m: Mapped {/products, POST} route
+2025-05-22T11:24:22.746Z [RouterExplorer] [32minfo[39m: Mapped {/products, GET} route
+2025-05-22T11:24:22.748Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, GET} route
+2025-05-22T11:24:22.750Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, PATCH} route
+2025-05-22T11:24:22.752Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, DELETE} route
+2025-05-22T11:24:22.754Z [RouterExplorer] [32minfo[39m: Mapped {/products/category/:category, GET} route
+2025-05-22T11:24:22.754Z [RoutesResolver] [32minfo[39m: OrdersController {/orders}:
+2025-05-22T11:24:22.755Z [RouterExplorer] [32minfo[39m: Mapped {/orders, POST} route
+2025-05-22T11:24:22.757Z [RouterExplorer] [32minfo[39m: Mapped {/orders, GET} route
+2025-05-22T11:24:22.758Z [RouterExplorer] [32minfo[39m: Mapped {/orders/my-orders, GET} route
+2025-05-22T11:24:22.759Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, GET} route
+2025-05-22T11:24:22.761Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, PATCH} route
+2025-05-22T11:24:22.762Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id/status, PATCH} route
+2025-05-22T11:24:22.763Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, DELETE} route
+2025-05-22T11:24:22.779Z [NestApplication] [32minfo[39m: Nest application successfully started
+2025-05-22T11:24:22.796Z [undefined] [32minfo[39m: Application is running on: http://localhost:3000
+2025-05-22T11:24:22.797Z [undefined] [32minfo[39m: Swagger documentation available at: http://localhost:3000/api/docs
+2025-05-22T11:26:08.447Z [RoutesResolver] [32minfo[39m: AppController {/}:
+2025-05-22T11:26:08.486Z [RouterExplorer] [32minfo[39m: Mapped {/, GET} route
+2025-05-22T11:26:08.488Z [RoutesResolver] [32minfo[39m: UsersController {/users}:
+2025-05-22T11:26:08.495Z [RouterExplorer] [32minfo[39m: Mapped {/users, POST} route
+2025-05-22T11:26:08.502Z [RouterExplorer] [32minfo[39m: Mapped {/users, GET} route
+2025-05-22T11:26:08.509Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, GET} route
+2025-05-22T11:26:08.514Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, PATCH} route
+2025-05-22T11:26:08.520Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, DELETE} route
+2025-05-22T11:26:08.523Z [RoutesResolver] [32minfo[39m: HealthController {/health}:
+2025-05-22T11:26:08.528Z [RouterExplorer] [32minfo[39m: Mapped {/health, GET} route
+2025-05-22T11:26:08.532Z [RoutesResolver] [32minfo[39m: AuthController {/auth}:
+2025-05-22T11:26:08.537Z [RouterExplorer] [32minfo[39m: Mapped {/auth/register, POST} route
+2025-05-22T11:26:08.543Z [RouterExplorer] [32minfo[39m: Mapped {/auth/login, POST} route
+2025-05-22T11:26:08.551Z [RouterExplorer] [32minfo[39m: Mapped {/auth/profile, GET} route
+2025-05-22T11:26:08.553Z [RoutesResolver] [32minfo[39m: ProductsController {/products}:
+2025-05-22T11:26:08.558Z [RouterExplorer] [32minfo[39m: Mapped {/products, POST} route
+2025-05-22T11:26:08.562Z [RouterExplorer] [32minfo[39m: Mapped {/products, GET} route
+2025-05-22T11:26:08.565Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, GET} route
+2025-05-22T11:26:08.571Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, PATCH} route
+2025-05-22T11:26:08.576Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, DELETE} route
+2025-05-22T11:26:08.584Z [RouterExplorer] [32minfo[39m: Mapped {/products/category/:category, GET} route
+2025-05-22T11:26:08.587Z [RoutesResolver] [32minfo[39m: OrdersController {/orders}:
+2025-05-22T11:26:08.592Z [RouterExplorer] [32minfo[39m: Mapped {/orders, POST} route
+2025-05-22T11:26:08.594Z [RouterExplorer] [32minfo[39m: Mapped {/orders, GET} route
+2025-05-22T11:26:08.598Z [RouterExplorer] [32minfo[39m: Mapped {/orders/my-orders, GET} route
+2025-05-22T11:26:08.601Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, GET} route
+2025-05-22T11:26:08.605Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, PATCH} route
+2025-05-22T11:26:08.608Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id/status, PATCH} route
+2025-05-22T11:26:08.611Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, DELETE} route
+2025-05-22T11:26:08.639Z [NestApplication] [32minfo[39m: Nest application successfully started
+2025-05-22T11:26:08.669Z [undefined] [32minfo[39m: Application is running on: http://localhost:3000
+2025-05-22T11:26:08.671Z [undefined] [32minfo[39m: Swagger documentation available at: http://localhost:3000/api/docs
+2025-05-22T11:29:39.573Z [RoutesResolver] [32minfo[39m: AppController {/}:
+2025-05-22T11:29:39.612Z [RouterExplorer] [32minfo[39m: Mapped {/, GET} route
+2025-05-22T11:29:39.614Z [RoutesResolver] [32minfo[39m: UsersController {/users}:
+2025-05-22T11:29:39.622Z [RouterExplorer] [32minfo[39m: Mapped {/users, POST} route
+2025-05-22T11:29:39.630Z [RouterExplorer] [32minfo[39m: Mapped {/users, GET} route
+2025-05-22T11:29:39.637Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, GET} route
+2025-05-22T11:29:39.644Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, PATCH} route
+2025-05-22T11:29:39.649Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, DELETE} route
+2025-05-22T11:29:39.652Z [RoutesResolver] [32minfo[39m: HealthController {/health}:
+2025-05-22T11:29:39.657Z [RouterExplorer] [32minfo[39m: Mapped {/health, GET} route
+2025-05-22T11:29:39.661Z [RoutesResolver] [32minfo[39m: AuthController {/auth}:
+2025-05-22T11:29:39.667Z [RouterExplorer] [32minfo[39m: Mapped {/auth/register, POST} route
+2025-05-22T11:29:39.673Z [RouterExplorer] [32minfo[39m: Mapped {/auth/login, POST} route
+2025-05-22T11:29:39.678Z [RouterExplorer] [32minfo[39m: Mapped {/auth/profile, GET} route
+2025-05-22T11:29:39.679Z [RoutesResolver] [32minfo[39m: ProductsController {/products}:
+2025-05-22T11:29:39.684Z [RouterExplorer] [32minfo[39m: Mapped {/products, POST} route
+2025-05-22T11:29:39.688Z [RouterExplorer] [32minfo[39m: Mapped {/products, GET} route
+2025-05-22T11:29:39.692Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, GET} route
+2025-05-22T11:29:39.697Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, PATCH} route
+2025-05-22T11:29:39.701Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, DELETE} route
+2025-05-22T11:29:39.704Z [RouterExplorer] [32minfo[39m: Mapped {/products/category/:category, GET} route
+2025-05-22T11:29:39.705Z [RoutesResolver] [32minfo[39m: OrdersController {/orders}:
+2025-05-22T11:29:39.709Z [RouterExplorer] [32minfo[39m: Mapped {/orders, POST} route
+2025-05-22T11:29:39.712Z [RouterExplorer] [32minfo[39m: Mapped {/orders, GET} route
+2025-05-22T11:29:39.715Z [RouterExplorer] [32minfo[39m: Mapped {/orders/my-orders, GET} route
+2025-05-22T11:29:39.718Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, GET} route
+2025-05-22T11:29:39.721Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, PATCH} route
+2025-05-22T11:29:39.725Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id/status, PATCH} route
+2025-05-22T11:29:39.727Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, DELETE} route
+2025-05-22T11:29:39.759Z [NestApplication] [32minfo[39m: Nest application successfully started
+2025-05-22T11:29:39.791Z [undefined] [32minfo[39m: Application is running on: http://localhost:3000
+2025-05-22T11:29:39.793Z [undefined] [32minfo[39m: Swagger documentation available at: http://localhost:3000/api/docs
+2025-05-22T11:31:27.045Z [RoutesResolver] [32minfo[39m: AppController {/}:
+2025-05-22T11:31:27.068Z [RouterExplorer] [32minfo[39m: Mapped {/, GET} route
+2025-05-22T11:31:27.069Z [RoutesResolver] [32minfo[39m: UsersController {/users}:
+2025-05-22T11:31:27.074Z [RouterExplorer] [32minfo[39m: Mapped {/users, POST} route
+2025-05-22T11:31:27.077Z [RouterExplorer] [32minfo[39m: Mapped {/users, GET} route
+2025-05-22T11:31:27.082Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, GET} route
+2025-05-22T11:31:27.085Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, PATCH} route
+2025-05-22T11:31:27.089Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, DELETE} route
+2025-05-22T11:31:27.090Z [RoutesResolver] [32minfo[39m: HealthController {/health}:
+2025-05-22T11:31:27.093Z [RouterExplorer] [32minfo[39m: Mapped {/health, GET} route
+2025-05-22T11:31:27.095Z [RoutesResolver] [32minfo[39m: AuthController {/auth}:
+2025-05-22T11:31:27.098Z [RouterExplorer] [32minfo[39m: Mapped {/auth/register, POST} route
+2025-05-22T11:31:27.102Z [RouterExplorer] [32minfo[39m: Mapped {/auth/login, POST} route
+2025-05-22T11:31:27.105Z [RouterExplorer] [32minfo[39m: Mapped {/auth/profile, GET} route
+2025-05-22T11:31:27.105Z [RoutesResolver] [32minfo[39m: ProductsController {/products}:
+2025-05-22T11:31:27.108Z [RouterExplorer] [32minfo[39m: Mapped {/products, POST} route
+2025-05-22T11:31:27.109Z [RouterExplorer] [32minfo[39m: Mapped {/products, GET} route
+2025-05-22T11:31:27.111Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, GET} route
+2025-05-22T11:31:27.114Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, PATCH} route
+2025-05-22T11:31:27.115Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, DELETE} route
+2025-05-22T11:31:27.116Z [RouterExplorer] [32minfo[39m: Mapped {/products/category/:category, GET} route
+2025-05-22T11:31:27.117Z [RoutesResolver] [32minfo[39m: OrdersController {/orders}:
+2025-05-22T11:31:27.119Z [RouterExplorer] [32minfo[39m: Mapped {/orders, POST} route
+2025-05-22T11:31:27.120Z [RouterExplorer] [32minfo[39m: Mapped {/orders, GET} route
+2025-05-22T11:31:27.122Z [RouterExplorer] [32minfo[39m: Mapped {/orders/my-orders, GET} route
+2025-05-22T11:31:27.123Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, GET} route
+2025-05-22T11:31:27.125Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, PATCH} route
+2025-05-22T11:31:27.126Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id/status, PATCH} route
+2025-05-22T11:31:27.127Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, DELETE} route
+2025-05-22T11:31:27.143Z [NestApplication] [32minfo[39m: Nest application successfully started
+2025-05-22T11:31:27.162Z [undefined] [32minfo[39m: Application is running on: http://localhost:3000
+2025-05-22T11:31:27.163Z [undefined] [32minfo[39m: Swagger documentation available at: http://localhost:3000/api/docs
+2025-05-22T11:31:36.733Z [RoutesResolver] [32minfo[39m: AppController {/}:
+2025-05-22T11:31:36.762Z [RouterExplorer] [32minfo[39m: Mapped {/, GET} route
+2025-05-22T11:31:36.763Z [RoutesResolver] [32minfo[39m: UsersController {/users}:
+2025-05-22T11:31:36.767Z [RouterExplorer] [32minfo[39m: Mapped {/users, POST} route
+2025-05-22T11:31:36.771Z [RouterExplorer] [32minfo[39m: Mapped {/users, GET} route
+2025-05-22T11:31:36.774Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, GET} route
+2025-05-22T11:31:36.778Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, PATCH} route
+2025-05-22T11:31:36.781Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, DELETE} route
+2025-05-22T11:31:36.782Z [RoutesResolver] [32minfo[39m: HealthController {/health}:
+2025-05-22T11:31:36.784Z [RouterExplorer] [32minfo[39m: Mapped {/health, GET} route
+2025-05-22T11:31:36.787Z [RoutesResolver] [32minfo[39m: AuthController {/auth}:
+2025-05-22T11:31:36.790Z [RouterExplorer] [32minfo[39m: Mapped {/auth/register, POST} route
+2025-05-22T11:31:36.793Z [RouterExplorer] [32minfo[39m: Mapped {/auth/login, POST} route
+2025-05-22T11:31:36.795Z [RouterExplorer] [32minfo[39m: Mapped {/auth/profile, GET} route
+2025-05-22T11:31:36.796Z [RoutesResolver] [32minfo[39m: ProductsController {/products}:
+2025-05-22T11:31:36.798Z [RouterExplorer] [32minfo[39m: Mapped {/products, POST} route
+2025-05-22T11:31:36.800Z [RouterExplorer] [32minfo[39m: Mapped {/products, GET} route
+2025-05-22T11:31:36.802Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, GET} route
+2025-05-22T11:31:36.804Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, PATCH} route
+2025-05-22T11:31:36.807Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, DELETE} route
+2025-05-22T11:31:36.808Z [RouterExplorer] [32minfo[39m: Mapped {/products/category/:category, GET} route
+2025-05-22T11:31:36.809Z [RoutesResolver] [32minfo[39m: OrdersController {/orders}:
+2025-05-22T11:31:36.811Z [RouterExplorer] [32minfo[39m: Mapped {/orders, POST} route
+2025-05-22T11:31:36.813Z [RouterExplorer] [32minfo[39m: Mapped {/orders, GET} route
+2025-05-22T11:31:36.813Z [RouterExplorer] [32minfo[39m: Mapped {/orders/my-orders, GET} route
+2025-05-22T11:31:36.815Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, GET} route
+2025-05-22T11:31:36.817Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, PATCH} route
+2025-05-22T11:31:36.819Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id/status, PATCH} route
+2025-05-22T11:31:36.820Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, DELETE} route
+2025-05-22T11:31:36.837Z [NestApplication] [32minfo[39m: Nest application successfully started
+2025-05-22T11:31:36.855Z [undefined] [32minfo[39m: Application is running on: http://localhost:3000
+2025-05-22T11:31:36.856Z [undefined] [32minfo[39m: Swagger documentation available at: http://localhost:3000/api/docs
+2025-05-22T11:31:51.649Z [RoutesResolver] [32minfo[39m: AppController {/}:
+2025-05-22T11:31:51.683Z [RouterExplorer] [32minfo[39m: Mapped {/, GET} route
+2025-05-22T11:31:51.684Z [RoutesResolver] [32minfo[39m: UsersController {/users}:
+2025-05-22T11:31:51.691Z [RouterExplorer] [32minfo[39m: Mapped {/users, POST} route
+2025-05-22T11:31:51.696Z [RouterExplorer] [32minfo[39m: Mapped {/users, GET} route
+2025-05-22T11:31:51.702Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, GET} route
+2025-05-22T11:31:51.707Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, PATCH} route
+2025-05-22T11:31:51.712Z [RouterExplorer] [32minfo[39m: Mapped {/users/:id, DELETE} route
+2025-05-22T11:31:51.714Z [RoutesResolver] [32minfo[39m: HealthController {/health}:
+2025-05-22T11:31:51.719Z [RouterExplorer] [32minfo[39m: Mapped {/health, GET} route
+2025-05-22T11:31:51.722Z [RoutesResolver] [32minfo[39m: AuthController {/auth}:
+2025-05-22T11:31:51.727Z [RouterExplorer] [32minfo[39m: Mapped {/auth/register, POST} route
+2025-05-22T11:31:51.732Z [RouterExplorer] [32minfo[39m: Mapped {/auth/login, POST} route
+2025-05-22T11:31:51.736Z [RouterExplorer] [32minfo[39m: Mapped {/auth/profile, GET} route
+2025-05-22T11:31:51.738Z [RoutesResolver] [32minfo[39m: ProductsController {/products}:
+2025-05-22T11:31:51.742Z [RouterExplorer] [32minfo[39m: Mapped {/products, POST} route
+2025-05-22T11:31:51.746Z [RouterExplorer] [32minfo[39m: Mapped {/products, GET} route
+2025-05-22T11:31:51.750Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, GET} route
+2025-05-22T11:31:51.755Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, PATCH} route
+2025-05-22T11:31:51.759Z [RouterExplorer] [32minfo[39m: Mapped {/products/:id, DELETE} route
+2025-05-22T11:31:51.763Z [RouterExplorer] [32minfo[39m: Mapped {/products/category/:category, GET} route
+2025-05-22T11:31:51.764Z [RoutesResolver] [32minfo[39m: OrdersController {/orders}:
+2025-05-22T11:31:51.768Z [RouterExplorer] [32minfo[39m: Mapped {/orders, POST} route
+2025-05-22T11:31:51.771Z [RouterExplorer] [32minfo[39m: Mapped {/orders, GET} route
+2025-05-22T11:31:51.774Z [RouterExplorer] [32minfo[39m: Mapped {/orders/my-orders, GET} route
+2025-05-22T11:31:51.778Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, GET} route
+2025-05-22T11:31:51.782Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, PATCH} route
+2025-05-22T11:31:51.785Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id/status, PATCH} route
+2025-05-22T11:31:51.788Z [RouterExplorer] [32minfo[39m: Mapped {/orders/:id, DELETE} route
+2025-05-22T11:31:51.820Z [NestApplication] [32minfo[39m: Nest application successfully started
+2025-05-22T11:31:51.852Z [undefined] [32minfo[39m: Application is running on: http://localhost:3000
+2025-05-22T11:31:51.854Z [undefined] [32minfo[39m: Swagger documentation available at: http://localhost:3000/api/docs
